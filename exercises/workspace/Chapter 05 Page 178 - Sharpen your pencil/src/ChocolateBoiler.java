@@ -9,7 +9,7 @@ public class ChocolateBoiler {
 		boiled = false;
 	}
 	
-	public ChocolateBoiler getInstance () {
+	public static ChocolateBoiler getInstance () {
 		if (singletonInstance == null) {
 			singletonInstance = new ChocolateBoiler();
 		}
